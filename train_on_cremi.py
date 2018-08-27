@@ -9,10 +9,6 @@ import numpy as np
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # Gunpowder imports
-
-import sys
-sys.path.insert(0, '/groups/funke/home/buhmannj/src/gunpowder_syntist')
-
 from gunpowder import *
 from gunpowder.tensorflow import *
 from gunpowder.nodes.batch_filter import BatchFilter
@@ -22,8 +18,6 @@ from gunpowdernodes import CremiSource
 from tf_utils import generate_tinder_net_cremi
 
 data_dir = 'put here cremi data direction' # publicly available ground truth set from: https://cremi.org/
-data_dir = '/groups/funke/home/buhmannj/data/cremi/'
-
 
 def train(output_path, hyperparameter_dic, affinity_vectors):
     print('writing everything to %s' % output_path)
