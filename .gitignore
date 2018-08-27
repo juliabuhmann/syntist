@@ -6,3 +6,8 @@
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+
+### Custom Files and Folder###
+*.hdf
+*output*
