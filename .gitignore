@@ -1,0 +1,8 @@
+*.pyc
+*.png
+*.meta
+*.json
+
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
