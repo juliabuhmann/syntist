@@ -2,7 +2,7 @@
 
 Pronounced *scientist*. A project for the automated detection of synaptic partners in Electron Microscopy brain data.
 
-This is the original implementation of the paper ["Synaptic partner prediction from point annotations in insect brains"](https://arxiv.org/pdf/1806.08205.pdf).
+This is the original implementation of the paper ["Synaptic partner prediction from point annotations in insect brains"](https://link.springer.com/chapter/10.1007/978-3-030-00934-2_35).
 
 ## Status
 Preliminary, not well documented version.  At the moment, this repos mainly serves as a reference for the paper to see the original U-Net architecture in `tensorflow` [here](tf_utils/unet_tinder.py) and the [training pipeline](train_on_cremi.py) in [`gunpowder`](https://github.com/funkey/gunpowder/tree/release-v1.0/gunpowder).
