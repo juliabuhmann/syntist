@@ -36,3 +36,8 @@ We provide a small test dataset cropped from CREMI dataset `Sample C`, which inc
 Donwload the dataset from [here](https://drive.google.com/open?id=1q-w5Y9ekt4EVHWtgE4-xTmRXEULXgDFc). You can have a look at the data with [this notebook](notebooks/visualize_data_with_nyroglancer.ipynb).
 
 In order to obtain synaptic partners from the U-Net output and validate with CREMI stats, run this [extraction and evaluation script](extract_syn_partners.py).  As a record, we created the cropped dataset with [this script](data/prepare_small_crop.py).
+
+## Data used for CREMI submission
+We provide network predictions (inference) for CREMI samples a, b, c and a+, b+, c+ [here](https://drive.google.com/open?id=15MvGzjHisiiZyJnMCOPFEXl11vNrIw4I), + [trained networks](https://drive.google.com/open?id=12Fj7IUZZfjsUMhZE2S9e1tFIaElnvBnp) in tensorflow. 
+For extracting synaptic partners, we used automatically generated segmentation for [a+,b+,c+](https://drive.google.com/file/d/1jJiwswdnMzMAFQPgT8SqRB_aVFHhR7cM/view?usp=sharing).
+Extracted synaptic partners for submission in cremi format [here](https://drive.google.com/file/d/1NMZ0xTWOG6tnzDNjkRW_CWIht6ZpEkBf/view?usp=sharing) and original code for training, prediction, and extraction [here](https://drive.google.com/file/d/1O9WWqzvoTdfvxczxz9xglYvLgWm3Rfkq/view?usp=sharing).
